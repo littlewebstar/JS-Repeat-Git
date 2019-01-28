@@ -1,9 +1,13 @@
 // console.log("Merhaba Dunya");
 
-var header = document.getElementById("header");
+// var header = document.querySelector("#header");
 
-console.log(typeof header); // Neden ?
+// console.log(header); // Neden ? null donuyor...
 
+// console.log(typeof header);
 
-
+function myFunction() {
+  var x = document.getElementById("demo");
+  x.style.color = "red";
+}
 
