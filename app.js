@@ -1,8 +1,8 @@
-console.log("Merhaba Dunya");
+// console.log("Merhaba Dunya");
 
-var baslik = document.getElementById("baslik");
+var header = document.getElementById("header");
 
-console.log(baslik); // Neden ?
+console.log(typeof header); // Neden ?
 
 
 
