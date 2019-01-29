@@ -14,14 +14,34 @@
     height: 200px;
     background: #aaa;
   }
+  .calculator{
+    border: 2px solid black;
+    text-align: center;
+  }
   </style>
   <script src="app.js"></script>
 </head>
 
 <body>
+  <div class="calculator">
+    <hr>
+    <label for="number1">Number 1 :</label>
+    <input type="number" id="number1" name="number1">
+    <label for="number2">Number 2 :</label>
+    <input type="number" id="number2" name="number2">
+    <label for="result">Result</label><br>
+
+    <button type="button">Addition Me!</button>
+    <button type="button">Subtraction Me!</button>
+    <button type="button">Multiplication Me!</button>
+    <button type="button">Division Me!</button>
+    <hr>
+  </div>
+
+
   <p id="demo">Click the button to change the color of this paragraph.</p>
   <button onclick="myFunction()">Try it</button>
-  
+
   <div class="jumbotron text-center" style="margin-bottom:0">
     <h1 id="header"> My First Bootstrap 4 Page</h1>
     <p>Resize this responsive page to see the effect!</p>
